@@ -1,7 +1,15 @@
-# nodejs
-Dockerfile com Ubuntu-18.04 - NodeJs10 - Yarn - NPM
+# Pull image
+docker pull phelipemizerani/nodejs
 
-- Ubuntu 18.04
-- NodeJs 10
-- Npm
-- Yarn
+# What is included
+
+* Ubuntu 18.04
+* Node 10
+* Npm
+* Yarn
+
+# Usage
+
+```sh
+$ docker run -ti phelipemizerani/nodejs:latest
+```
